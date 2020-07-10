@@ -14,9 +14,9 @@ resume = docx2txt.process(filename)
 #print(resume)
 stat = dict()
 
-for filename in os.listdir("./test_job"):
+for filename in os.listdir("./"):
     # Store the job description into a variable
-    job_description = docx2txt.process("./test_job/"+filename)
+    job_description = docx2txt.process("./"+filename)
 
     # Print the job description
     # print(job_description)
