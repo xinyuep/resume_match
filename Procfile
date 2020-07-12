@@ -1,2 +1,2 @@
-web: python app.py
+web: python app.py runserver 127.0.0.1:5000
 
