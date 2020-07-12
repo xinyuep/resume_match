@@ -1,1 +1,1 @@
-web: play run --http.port=$app $cosine
+web: python app.py
