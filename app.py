@@ -12,4 +12,5 @@ def match():                      # call method hello
     return output                 # which returns "hello world"
 
 if __name__ == "__main__":        # on running python app.py
-    app.run(debug=True,host='127.0.0.1', port=5000)                     # run the flask app
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=False,host='0.0.0.0', port=port)                     # run the flask app
