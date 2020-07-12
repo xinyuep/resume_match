@@ -3,12 +3,13 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import os
 from collections import Counter
-import tkinter as tk
-from tkinter.filedialog import askopenfilename
+#import tkinter as tk
+#from tkinter.filedialog import askopenfilename
 
 def process():
     # Store the resume in a variable
-    filename = askopenfilename()
+    #filename = askopenfilename()
+    filename = "1Amy.docx"
     resume = docx2txt.process(filename)
 
     # Print the resume
