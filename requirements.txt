@@ -107,7 +107,6 @@ urllib3==1.25.8
 virtualenv==20.0.17
 wcwidth==0.1.9
 webencodings==0.5.1
-Werkzeug==1.0.1
 wrapt==1.12.1
 xlrd==1.2.0
 xmltodict==0.12.0
