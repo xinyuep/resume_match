@@ -168,11 +168,11 @@ def process(file):
         print("Your resume matches about "+ str(matchPercentage)+ "% of the job description:"+ filename)
 
     match = Counter(stat)
-    top3 = match.most_common(3)
+    top5 = match.most_common(5)
     output = 'Your top job recommendations are:'
-    for (temp_resume,temp_match) in top3:
+    for (temp_resume,temp_match) in top5:
         print(temp_resume[1],temp_match,"% matching")
-        output += " "+str(temp_resume[1][:-5])+" "+str(temp_match)+" % macthing"
+        output += "\n"+str(temp_resume[1][:-5])+" "+str(temp_match)+" % macthing"
     print(output)
     return output
 
