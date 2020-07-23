@@ -1,4 +1,7 @@
 -i https://pypi.org/simple
+pdfminer==20191125
+pdfminer.six==20200720
+spacy==2.3.2
 flask==1.1.2
 flask-uploads==0.2.1
 flask-wtf==0.14.3
