@@ -172,7 +172,7 @@ def process(file):
     output = 'Your top job recommendations are:'
     for (temp_resume,temp_match) in top5:
         print(temp_resume[1],temp_match,"% matching")
-        output += "\n"+str(temp_resume[1][:-5])+" "+str(temp_match)+" % macthing"
+        output += "\n"+str(temp_resume[1][:-5])+" "+str(temp_match)+" % macthing"+"|"
     print(output)
     return output
 
